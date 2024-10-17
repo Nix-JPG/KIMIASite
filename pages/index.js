@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Selamat Datang Pelayanan Praktikum" />
         <p className="description">
-          Silahkan <code><a href="login.google.com">LOGIN</code> terlebih dahulu
+          Silahkan <code><a href="login.google.com">LOGIN</a></code> terlebih dahulu
         </p>
       </main>
 
