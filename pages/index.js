@@ -1,7 +1,12 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
+<?php
+require once "../_config/config.php";
+if(isset($_SESSION['user'])) {
+  echo "https://github.com/Nix-JPG/kimiasite/blob/main/pages/index.js";
+}
+?>
 export default function Home() {
   return (
     <div className="container">
